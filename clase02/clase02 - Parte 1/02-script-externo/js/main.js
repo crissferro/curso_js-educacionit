@@ -1,0 +1,1 @@
+console.warn('Este contenido está en un script externo...');

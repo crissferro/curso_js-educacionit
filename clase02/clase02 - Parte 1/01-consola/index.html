@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consola</title>
+</head>
+<body>
+    <h1>Consola</h1>
+    <script>
+        console.log('Este mensaje se muestra en formato standard');
+        console.info('Este mensaje se muestra en formato de información (en Firefox cambia el ícono)');
+        console.warn('Este mensaje se muestra en formato de advertencia');
+        console.error('Este mensaje se muestra en formato de error');
+        
+        console.log('abc');
+        console.log('400');
+        console.log('true');
+        console.log('false');
+        console.log(400);
+        console.log(350 + 50);
+        console.log(false);
+        console.log(true);
+
+        console.log(    400 / 2 , 'hola', 40, 5 - 7 , false, 'otro texto', -50.18   );
+        console.log(    200     , 'hola', 40, -2    , false, 'otro texto', -50.18   );
+
+        const x = 100;
+        const y = 200;
+        const z = 300;
+        
+        console.log(x);
+        console.log(y);
+        console.log(z);
+        console.log('x:', x);
+        console.log('y:', y);
+        console.log('z:', z);
+
+        console.groupCollapsed('Colores:');
+        console.log('azul');
+        console.log('amarillo');
+        console.log('rojo');
+        console.log('violeta');
+        console.log('verde');
+        console.log('celeste');
+        console.log('naranja');
+        console.groupEnd();
+
+        console.group('Países:');
+        console.log('Argentina');
+        console.log('Uruguay');
+        console.log('Dinamarca');
+        console.log('Japón');
+        console.log('Grecia');
+        console.log('Nueva Zelanda');
+        console.log('Brasil');
+        console.groupEnd();
+
+        console.log('Otros mensajes...');
+        console.log('Otros mensajes...');
+        console.log('Otros mensajes...');
+        console.log('Otros mensajes...');
+        
+        console.log('abc' + 'xyz');
+
+        console.log('x:' + x);
+        console.log('x: ' + x);
+        console.log('x:', x);
+
+        </script>
+</body>
+</html>

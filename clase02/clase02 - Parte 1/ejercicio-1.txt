@@ -1,0 +1,17 @@
+1)
+Crear un archivo HTML "ejercicio-1.html" con un script interno.
+
+2)
+Definir en él variables para almacenar los siguientes datos de un curso y asignarles un valor a las mismas:
+    "nombre": "PHP"
+    "días de cursada": "lunes y miércoles"
+    "horario de inicio": 15
+    "horario de finalización": 18
+
+3)
+Imprimir en la consola el contenido de las mismas con 4 console.log distintos.
+Mostrar no solo el contenido de las variables, sino también su nombre.
+Mostrar estos valores dentro un un grupo de mensajes de console.log
+
+4)
+Repetir el paso anterior, pero utilizando un único console.log.

@@ -1,0 +1,34 @@
+Dadas 2 variables que existen con los siguientes valores:
+
+    let a = 10;
+    let b = 215;
+
+Imprimir el valor de las mismas:
+
+    Resultado esperado en la consola:
+        "a: 10"
+        "b: 215"
+
+Lograr, de alguna manera, que las mismas queden con los valores INVERTIDOS,
+de tal manera, que al volver a imprimir el valor de las mismas, se observe
+que efectivamente los valores fueron invertidos:
+
+    Resultado esperado en la consola:
+        "a: 215"
+        "b: 10"
+
+Tener en cuenta, que las variables deben realmente invertir sus valores!
+Es decir, se debe lograr que si se modifican los valores iniciales,
+las variables se inviertan solas después.
+
+Por ejemplo, esto sería incorrecto:
+    let a = 10;
+    let b = 215;
+    console.log('a:', a);
+    console.log('b:', b);
+    a = 215;    // No es válido, ya que se le está asignando de manera forzada 215, en lugar de asignarle lo que contiene "b"
+    b = 10;     // No es válido, ya que se le está asignando de manera forzada 10, en lugar de asignarle lo que contiene "a"
+    console.log('a:', a);
+    console.log('b:', b);
+
+No es correcto, ya que no se están invirtiendo los valores!

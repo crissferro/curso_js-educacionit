@@ -1,0 +1,16 @@
+Solicitar al usuario que ingrese el dia de la semana actual
+(lunes, martes, etc)
+
+Si el día es hábil ("lunes" a "viernes"), imprimir en la consola
+el mensaje "Hoy atendemos de 10 a 19h. Podés venir personalmente."
+
+Si el día no es hábil ("sábado" o "domingo"), imprimir en la consola
+el mensaje "Hoy no atendemos personalmente".
+
+Adicionalmente, si el día es particularmente sábado, adicionar
+otro mensaje en la consola con el texto
+"Hoy podés contactarnos por teléfono de 10 a 14h"
+
+Si el día no es válido ("rojo", "Osvaldo", null, "", etc)
+imprimir en la consola, a modo de error, el mensaje indicando
+que el día es incorrecto y mostrar el valor cargado por el usuario.

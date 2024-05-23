@@ -1,0 +1,3 @@
+Otras extensiones:
+https://marketplace.visualstudio.com/items?itemName=albymor.increment-selection
+https://marketplace.visualstudio.com/items?itemName=midnightsyntax.vscode-wrap-console-log

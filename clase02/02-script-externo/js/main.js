@@ -1,0 +1,1 @@
+console.warn('script externo en otro archivo');
