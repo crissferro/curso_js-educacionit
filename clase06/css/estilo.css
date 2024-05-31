@@ -1,0 +1,27 @@
+h2 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+}
+
+.destacado {
+    color: teal;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+p.destacado {
+    border: 5px solid rgb(143, 139, 25);
+}
+
+#encabezado-principal {
+    background-color: gray;
+    color: aqua;
+    padding: 1.1em;
+    text-align: center;
+}
